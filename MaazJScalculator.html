@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaz.web</title>
+    <link rel="shortcut icon" href="Maazlogo.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url("back5.webp");
+            background-blend-mode: darken;
+            background-size: cover;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(255, 255, 255);
+        }
+        div{
+            border: 2px double cyan;
+            width: 400px;
+            height: auto;
+            text-align: center;
+            position: relative;
+            top: 70px;
+            padding: 20px;
+            box-shadow: 0px 0px 15px red, 0px 0px 15px blue;
+        }
+        input{
+            font-size: 40px;
+            margin: 20px;
+            height: 50px;
+            width: 50px;
+            font-weight: 700;
+            box-shadow: 0px 0px 5px gray;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+        <form action="" name="frm">
+          <input type="text" name="ans" style="width: 350px; height: 60px; background-color: rgb(0, 69, 0); color: rgb(0, 0, 0); text-align: end;" >
+          <input type="button" value="1" onclick="frm.ans.value+='1'">
+          <input type="button" value="2" onclick="frm.ans.value+='2'">
+          <input type="button" value="3" onclick="frm.ans.value+='3'">
+          <input type="button" value="+" onclick="frm.ans.value+='+'">
+          <input type="button" value="4" onclick="frm.ans.value+='4'">
+          <input type="button" value="5" onclick="frm.ans.value+='5'">
+          <input type="button" value="6" onclick="frm.ans.value+='6'">
+          <input type="button" value="-" onclick="frm.ans.value+='-'">
+          <input type="button" value="7" onclick="frm.ans.value+='7'">
+          <input type="button" value="8" onclick="frm.ans.value+='8'">
+          <input type="button" value="9" onclick="frm.ans.value+='9'">
+          <input type="button" value="*" onclick="frm.ans.value+='*'">
+          <input type="button" value="/" onclick="frm.ans.value+='/'">
+          <input type="button" value="0" onclick="frm.ans.value+='0'">
+          <input type="button" value="." onclick="frm.ans.value+='.'">
+          <input type="button" value="=" onclick="frm.ans.value=eval(frm.ans.value)">
+          <input style="width: 320px; background-color: rgb(168, 9, 9); color: white;" type="button" value="AC" onclick="frm.ans.value=''">
+        </form>
+    </div>
+</center>
+</body>
+</html>
